@@ -27,7 +27,7 @@ const MainHero = () => {
                 <h6 className="text-sm text-zinc-700 font-normal">
                   {e.category}
                 </h6>
-                <h6 className=" font-normal text-base">
+                <h6 className=" font-normal text-base flex items-center gap-1">
                   <FaLocationDot />
                   {e.address}
                 </h6>
