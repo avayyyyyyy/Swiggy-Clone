@@ -1,4 +1,6 @@
 import { HiOutlineBadgeCheck } from "react-icons/hi";
+import { FaLocationDot } from "react-icons/fa6";
+
 import rest from "./Restraunt.js";
 
 const MainHero = () => {
@@ -25,7 +27,10 @@ const MainHero = () => {
                 <h6 className="text-sm text-zinc-700 font-normal">
                   {e.category}
                 </h6>
-                <h6 className=" font-normal text-base">{e.address}</h6>
+                <h6 className=" font-normal text-base">
+                  <FaLocationDot />
+                  {e.address}
+                </h6>
               </div>
             </div>
           );
